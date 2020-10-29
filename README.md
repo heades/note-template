@@ -1,9 +1,9 @@
 A Note Template using Ott and LateX
 ---
 
-The point of thie template is to write a note using Ott and LaTeX
+The point of this template is to write a note using Ott and LaTeX
 quickly when I have ideas.  This is really easy to get compiling,
-because it compiles as is! Howeve, if you are like me, and like to
+because it compiles as is! However, if you are like me, and like to
 name things, then change the following.
 
 First, in [Makefile](Makefile) change the following lines:
@@ -15,7 +15,9 @@ Name := note
 OTTPrefix := spec
 ```
 
-The first names the LaTex files, and the second names the language and prefixes all Ott commands with `$(OTTPrefix)`.  I usually set the latter to my language name.
+The first names the LaTex files, and the second names the language and
+prefixes all Ott commands with `$(OTTPrefix)`.  I usually set the
+latter to my language name.
 
 Then in [note.tex](note.tex) update the lines
 
