@@ -6,7 +6,7 @@ quickly when I have ideas.  This is really easy to get compiling,
 because it compiles as is! Howeve, if you are like me, and like to
 name things, then change the following.
 
-First, in <Makefile> change the following lines:
+First, in [Makefile](Makefile) change the following lines:
 
 ```
 # Name of the note:
@@ -17,7 +17,7 @@ OTTPrefix := spec
 
 The first names the LaTex files, and the second names the language and prefixes all Ott commands with `$(OTTPrefix)`.  I usually set the latter to my language name.
 
-Then in <note.tex> update the lines
+Then in [note.tex](note.tex) update the lines
 
 ```
 %% Change "spec" to language prefix.
