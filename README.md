@@ -1,4 +1,4 @@
-A Note Template using Ott and LateX
+A Note Template using Ott and LaTeX
 ---
 
 The point of this template is to write a note using Ott and LaTeX
